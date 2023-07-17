@@ -4,5 +4,9 @@
   <input type="text" name="skill">
   <button type="submit">Add Skill</button>
 </form>
+<form action="/skills/<%= /:id %>" method="DELETE">
+  <input type="text" name="skill">
+  <button type="submit">Delete Skill</button>
+</form>
 
 <%- include('../partials/footer') %>
