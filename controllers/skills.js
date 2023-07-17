@@ -16,7 +16,7 @@ function show(req, res) {
 
 function index(req, res) {
   res.render('skills/index', {
-    skills: Todo.getAll(),
+    skills: Skill.getAll(),
     title: 'All Skills'
   });
 };
